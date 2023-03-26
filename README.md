@@ -4,6 +4,9 @@
 <img src="figures/cover.png" style="zoom:10%;" width="250px"/>
 </div>
 
+<div align=center>
+<img src="https://img.shields.io/badge/python-3.10-blue"/>
+</div>
 
 This is a codebook about **Explainable Artificial Intelligence (XAI)** & **Medical Image Analysis**
 
