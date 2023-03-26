@@ -71,9 +71,11 @@ To run on SkinCon dataset and obtain a 100% accuracy in 3-class classification, 
 
 ### Visualization result
 
-<div align="center">    <img src="fig/vis1.png"  height=250><img src="fig/vis2.png" height=250> </div> <center><p>SkinCon</p></center>
+<div align="center">    <img src="fig/vis3.png"  height=250><img src="fig/vis4.png" height=250> </div> 
+<p align="center">ACRIMA</p>
 
-<div align="center">    <img src="fig/vis3.png"  height=250><img src="fig/vis4.png" height=250> </div> <center><p>ACRIMA</p></center>
+<div align="center">    <img src="fig/vis1.png"  height=250><img src="fig/vis2.png" height=250> </div> 
+<p align="center">SkinCon</p>
 
 
 
