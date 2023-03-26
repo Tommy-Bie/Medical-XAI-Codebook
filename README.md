@@ -18,8 +18,8 @@ This is a codebook :notebook_with_decorative_cover: for **Explainable Artificial
 
 | Directory                         | Paper                                                        | Publish   |
 | --------------------------------- | ------------------------------------------------------------ | --------- |
-| Ante-hoc_Explainability _Concepts | A Framework for Learning Ante-hoc Explainable Models via Concepts | CVPR 2022 |
-| Scouter                           | SCOUTER: Slot Attention-based Classifier for Explainable Image Recognition | ICCV 2021 |
+| Ante-hoc_Explainability _Concepts | A Framework for Learning Ante-hoc Explainable Models via Concepts [[Paper]](https://arxiv.org/abs/2108.11761)| CVPR 2022 |
+| Scouter                           | SCOUTER: Slot Attention-based Classifier for Explainable Image Recognition [[Paper]](https://arxiv.org/abs/2009.06138) | ICCV 2021 |
 | TODO ...                          |                                                              |           |
 
 
