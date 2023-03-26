@@ -1,6 +1,7 @@
 # Medical-XAI-Codebook
-<img src="figures/cover.png" style="zoom:10%;" width="500px"/>
-
+<center>
+<img src="figures/cover.png" style="zoom:10%;" width="250px"/>
+</center>
 
 
 This is a codebook about **Explainable Artificial Intelligence (XAI)** & **Medical Image Analysis**
