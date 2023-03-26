@@ -1,5 +1,5 @@
 # Medical-XAI-Codebook
-<img src="figures/cover.png" style="zoom:10%;" width="100px"/>
+<img src="figures/cover.png" style="zoom:10%;" width="500px"/>
 
 
 
