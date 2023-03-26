@@ -4,8 +4,8 @@ This project is for the paper: "A Framework for Learning Ante-hoc Explainable Mo
 Here is an overview of the work:
 <div align=center>
 <img src="figures/overview.png" width="700px"/>
-  <center>overview</center>
 </div>
+<center>overview</center>
 
 ### Cifar-10 (original dataset)
 The original work was implemented on Cifar-10.
