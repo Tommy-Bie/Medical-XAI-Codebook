@@ -2,8 +2,10 @@
 This project is for the paper: "A Framework for Learning Ante-hoc Explainable Models via Concepts" (CVPR 2022) (https://arxiv.org/abs/2108.11761). 
 
 Here is an overview of the work:
-![](figures/overview.png)
-
+<div align=center>
+<img src="figures/overview.png" width="700px"/>
+</div>
+<p align="center">Overview</p>
 
 ### Cifar-10 (original dataset)
 The original work was implemented on Cifar-10.
@@ -17,8 +19,10 @@ python main_cifar.py --train --num_workers 4 --batch_size 32 --epochs 20
 
 
 #### Visualization 
-
-<img src="figures/vis1.png" style="zoom:50%;" />
+<div align=center>
+<img src="figures/vis1.png" style="zoom:50%;" width="400px"/>
+</div>
+<p align="center">Cifar-10</p>
 
 ### SkinCon
 

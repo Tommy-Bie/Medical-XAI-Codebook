@@ -3,13 +3,18 @@
 # SCOUTER: Slot Attention-based Classifier for Explainable Image Recognition 
 [Paper PDF](https://arxiv.org/abs/2009.06138) (ICCV 2021)
 
-![Figure](fig/zfig_story.jpg)
+<div align=center>
+<img src="fig/zfig_story.jpg" width="700px"/>
+</div>
+<p align="center">Overview</p>
 
 ## Abstract
 Explainable artificial intelligence has been gaining attention in the past few years. However, most existing methods are based on gradients or intermediate features, which are not directly involved in the decision-making process of the classifier. In this paper, we propose a slot attention-based classifier called SCOUTER for transparent yet accurate classification. Two major differences from other attention-based methods include: (a) SCOUTER's explanation is involved in the final confidence for each category, offering more intuitive interpretation, and (b) all the categories have their corresponding positive or negative explanation, which tells "why the image is of a certain category" or "why the image is not of a certain category." We design a new loss tailored for SCOUTER that controls the model's behavior to switch between positive and negative explanations, as well as the size of explanatory regions. Experimental results show that SCOUTER can give better visual explanations while keeping good accuracy on small and medium-sized datasets.
 
 ## Model Structure
-![Structure Figure](fig/zfig_structure.jpg)
+<div align=center>
+<img src="fig/zfig_structure.jpg" width="400px"/>
+</div>
 
 SCOUTER is built on top of the recently-emerged slot attention, which offers an object-centric approach for image representation. Based on this approach, we propose an explainable slot attention (xSlot) module. The output from the xSlot module is directly used as the confidence values for each category and thus commonly used fully-connected (FC) layer-based classifiers are no longer necessary. The whole network, including the backbone, is trained with the SCOUTER loss, which provides control over the size of explanatory regions and switching between positive and negative explanations.
 
@@ -66,9 +71,11 @@ To run on SkinCon dataset and obtain a 100% accuracy in 3-class classification, 
 
 ### Visualization result
 
-<div align="center">    <img src="fig/vis1.png"  height=250><img src="fig/vis2.png" height=250> </div> <center><p>SkinCon</p></center>
+<div align="center">    <img src="fig/vis3.png"  height=250><img src="fig/vis4.png" height=250> </div> 
+<p align="center">ACRIMA</p>
 
-<div align="center">    <img src="fig/vis3.png"  height=250><img src="fig/vis4.png" height=250> </div> <center><p>ACRIMA</p></center>
+<div align="center">    <img src="fig/vis1.png"  height=250><img src="fig/vis2.png" height=250> </div> 
+<p align="center">SkinCon</p>
 
 
 
