@@ -1,4 +1,3 @@
-# 我是你亲爱的老父亲
 from torch.utils.data import Dataset
 from PIL import Image
 from sklearn.model_selection import train_test_split
