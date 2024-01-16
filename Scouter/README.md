@@ -65,7 +65,7 @@ python torchcam_vis.py --dataset ACRIMA --model resnest26d --batch_size 32 --num
 ```
 
 ### SkinCon
-To run on SkinCon dataset and obtain a 100% accuracy in 3-class classification, you could just replace the `ACRIMA` above by `SkinCon`.
+To run on SkinCon dataset, you could just replace the `ACRIMA` above by `SkinCon`.
 
 
 

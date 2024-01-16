@@ -26,7 +26,7 @@ python main_cifar.py --train --num_workers 4 --batch_size 32 --epochs 20
 
 ### SkinCon
 
-I re-implemented the work on SkinCon (specifically Fitzpatrick17k) dataset and obtained **96%** acc in the 3-class classification (*non-neoplastic, benign* and *malignant*).
+I re-implemented the work on SkinCon (specifically Fitzpatrick17k) dataset under the task of 3-class classification (*non-neoplastic, benign* and *malignant*).
 
 To run on SkinCon, go into `medical` dir and run the following script:
 
